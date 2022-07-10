@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFragment">
+    tools:context=".ui.main.MainFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view_heal"
@@ -17,6 +17,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:listitem="@layout/item_data"
         tools:itemCount="100" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+
+
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="@+id/recycle_view_heal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="45dp"
+android:tint="@color/white"
+        app:srcCompat="@drawable/ic_heart_white" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
