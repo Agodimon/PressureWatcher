@@ -24,9 +24,7 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
         val myRef = database.getReference("message")
 
         myRef.setValue("Hello, World!")
-        binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-        }
+
     }
 
 
