@@ -9,4 +9,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="input_your_pulse">input your pulse</string>
+    <string name="input_your_heart_bit">input your heart bit</string>
+    <string name="input_your_heart_beat">input your heart beat</string>
 </resources>

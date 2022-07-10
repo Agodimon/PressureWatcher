@@ -11,7 +11,7 @@ import com.android.pressurewatcher.databinding.FragmentFirstBinding
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
-class FirstFragment : Fragment(R.layout.fragment_first) {
+class MainFragment : Fragment(R.layout.fragment_first) {
     private val binding: FragmentFirstBinding by viewBinding()
 
 
