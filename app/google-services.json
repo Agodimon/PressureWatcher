@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "267678089998",
+    "firebase_url": "https://pressurewatcher-default-rtdb.firebaseio.com",
+    "project_id": "pressurewatcher",
+    "storage_bucket": "pressurewatcher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267678089998:android:244121cd3b76a633d04d5f",
+        "android_client_info": {
+          "package_name": "com.android.pressurewatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267678089998-pn5ohku1fic0p1dbim7h1piqfqbn28gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3YAFkIVjsf_5GVb6mdZPO6tLExwHtRXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267678089998-pn5ohku1fic0p1dbim7h1piqfqbn28gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
