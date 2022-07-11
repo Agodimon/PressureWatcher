@@ -8,7 +8,7 @@ import com.android.pressurewatcher.data.models.Health
 import com.android.pressurewatcher.databinding.ItemDataBinding
 import com.android.pressurewatcher.databinding.ItemDateCreateBinding
 import com.android.pressurewatcher.ui.main.viewholders.ItemDateViewHolder
-import com.android.pressurewatcher.ui.main.viewholders.ItemDateCteateViewHolder
+import com.android.pressurewatcher.ui.main.viewholders.ItemDateCreateViewHolder
 import com.android.pressurewatcher.ui.main.viewholders.ViewHolders
 
 import java.time.LocalDate
@@ -24,13 +24,13 @@ class MainAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return when (viewType) {
-            ViewHolders.ITEM_HEALTH.ordinal -> ItemDateCteateViewHolder(
+            ViewHolders.ITEM_HEALTH.ordinal -> ItemDateCreateViewHolder(
                 ItemDataBinding.inflate(LayoutInflater.from(parent.context), parent, false)
             )
             ViewHolders.ITEM_DATE.ordinal -> ItemDateViewHolder(
                 ItemDateCreateBinding.inflate(LayoutInflater.from(parent.context), parent, false)
             )
-            else -> ItemDateCteateViewHolder(
+            else -> ItemDateCreateViewHolder(
                 ItemDataBinding.inflate(LayoutInflater.from(parent.context), parent, false)
             )
         }
@@ -40,7 +40,7 @@ class MainAdapter(
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (holder) {
             is ItemDateViewHolder -> holder.bind(data[position])
-            is ItemDateCteateViewHolder -> holder.bind(data[position])
+            is ItemDateCreateViewHolder -> holder.bind(data[position])
         }
     }
 

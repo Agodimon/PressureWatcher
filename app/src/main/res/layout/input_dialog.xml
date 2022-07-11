@@ -16,13 +16,15 @@
             app:layout_constraintEnd_toStartOf="@id/title_heart_break"
             android:hint="@string/input_your_pulse"
             app:hintEnabled="true"
-            app:helperText="Input your pulse"
+            app:helperText="Enter your pulse"
             >
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_pulse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+
+                android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/title_heart_break"

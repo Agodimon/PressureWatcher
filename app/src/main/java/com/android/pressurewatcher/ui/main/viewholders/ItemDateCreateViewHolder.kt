@@ -10,7 +10,7 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 import java.util.*
 
-class ItemDateCteateViewHolder(
+class ItemDateCreateViewHolder(
     private val viewBinding: ItemDataBinding
 ) : RecyclerView.ViewHolder(viewBinding.root) {
     @SuppressLint("NewApi")
